@@ -29,15 +29,16 @@ This project demonstrates a robust implementation of file uploads using React fo
 1. Clone the repository:
 ```bash
    git clone https://github.com/Caesarsage/aws-multipart-uploads-react-node.git
-   cd file-upload-app
+   cd aws-multipart-uploads-react-node
 ```
 
 1. Install dependencies for frontend and backend:
 
 ```bash
-   cd frontend
+   cd client
    npm install
-   cd ../backend
+   
+   cd ../server
    npm install
 ```
 
@@ -55,16 +56,17 @@ This project demonstrates a robust implementation of file uploads using React fo
    - In one terminal, start the frontend:
 
 ```bash
-     cd frontend
+     cd client
      npm start
 ```
    - In another terminal, start the backend:
+  
 ```bash
-     cd backend
-     node server.js
+     cd server
+     node app.js
 ```
 
-5. Open your browser and navigate to `http://localhost:3000` to use the application.
+1. Open your browser and navigate to `http://localhost:3001` to use the application.
 
 ## Contributions
 Contributions to enhance and improve this project are welcome! Please fork the repository and submit a pull request with your proposed changes.
